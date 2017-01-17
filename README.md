@@ -9,4 +9,13 @@ the arduino driver seemed very complex for adding values to a number and sending
 * SetColor(1,0,0) -> Red only
 * SetColor(0,1,1) -> Green + Blue
 
-Etc.
+000 off
+100 red
+010 green
+001 blue
+110 light green
+011 turquoise
+111 white
+
+spi communication hardcoded spi1  port 19 + 23 and using lib
+https://github.com/doceme/py-spidev
