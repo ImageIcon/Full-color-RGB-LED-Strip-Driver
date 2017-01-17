@@ -14,8 +14,3 @@ def SetColor(Red,Green,Blue):
   dx += Green << 3;
   dx += Blue << 4;	
   spi.writebytes(bitfield(dx))
-
- 
-SetColor(1,1,1)
-
-
