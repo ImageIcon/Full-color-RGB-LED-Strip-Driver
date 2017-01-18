@@ -10,12 +10,12 @@ http://www.dx.com/p/full-color-rgb-led-strip-driver-module-w-dc-jack-for-arduino
 * SetColor(0,255,255) -> Green + Blue
 
 ```python
-import rgb
+import led
 import time
 while True:
-	rgb.SetColor(255,0,255)
+	led.SetColor(255,0,255)
 	time.sleep(2)
-	rgb.SetColor(100,255,0)
+	led.SetColor(100,255,0)
 	time.sleep(2)
 	
 ```
